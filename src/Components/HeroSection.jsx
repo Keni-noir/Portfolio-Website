@@ -6,7 +6,7 @@ export const HeroSection = () =>{
         <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center px-4 ">
             <div className="container max-w-5xl mx-auto text-center z-10">
                 <div className="space-y-6">
-                    <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 ">
+                    <div className=" mx-auto grid grid-cols-1 mt-10 md:mt-20 mb-20 md:mb-0 md:grid-cols-2 gap-12 ">
                         <div className="space-y-4  mt-30 justify-center">
                             <h1 className="text-4xl md:text-6xl font-bold tracking-tight ">
                                 <span className="opacity-0 animate-fade-in">Hi, i'm </span>
@@ -16,8 +16,12 @@ export const HeroSection = () =>{
                             <p className="text-lg md:text-xl text-muted-forground max-w-2xl opacity-0 animate-fade-in-delay-3">
                                 i am a Frontend Developer currently aiming at Full-Stack Developer and WEB3 Enthusiat. Business Owner, Grace Footwears. Video Editor. A Graduate of Computer Science. </p>
                         </div>
-                        <div className="w-108 h-108 mx-auto justify-end rounded-xl border-2 overflow-hidden opacity-0 animate-fade-in-delay-3">
-                            <img src="/Professional Image.jpg" alt="Goodness-Picture" className=""/>
+                        <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto rounded-xl border-2 overflow-hidden opacity-0 animate-fade-in-delay-3">
+                            <img 
+                                src="/Professional Image.jpg" 
+                                alt="Goodness-Picture" 
+                                className="w-full h-120 object-cover"
+                            />
                         </div>
                     </div>
 
