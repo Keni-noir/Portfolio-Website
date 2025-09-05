@@ -47,7 +47,7 @@ export const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-left">Web Development</h4>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
                 </div>
@@ -61,7 +61,7 @@ export const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-left">Video Editing</h4>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
                 </div>
@@ -75,7 +75,7 @@ export const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-left">UI/UX</h4>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground text-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
                 </div>
