@@ -1,6 +1,6 @@
 import { Facebook, FactoryIcon, Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from "lucide-react"
 import { cn } from "../lib/utils"
-import { useToast } from "../Hooks/use-toast"
+import { useToast } from "./UI/toast.jsx"
 import { useState } from "react"
 import emailjs from "@emailjs/browser"
 import { use } from "react"
