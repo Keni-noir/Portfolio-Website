@@ -48,7 +48,7 @@ export const AboutSection = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-left">Web Development</h4>
                   <p className="text-muted-foreground text-left">
-                    Cuurently a Frontend Developer, aiming to be a Full-Stack Developer and WEB3 Enthusiast. Currently learning nextjs and nodejs.I ahve one year experinece building responsive and dynamic websites.
+                    Cuurently a Frontend Developer, aiming to be a Full-Stack Developer and WEB3 Enthusiast. Currently learning nextjs and nodejs.I have gained hands-on-experinece building responsive and dynamic websites.
                   </p>
                 </div>
               </div>
