@@ -1,6 +1,7 @@
 import ShoppingCart from "/Project/Shopping-Cart.png"
 import MortgageCalculator from "/Project/Mortgage-Calculator.png"
 import ResultSummary from "/Project/Result-Summary.png"
+import ApiCountries from "/Project/Api-Countries.png"
 
 const Projects = [
     {
@@ -31,6 +32,16 @@ const Projects = [
      tags: ["React", "TailwindCSS"],
      demoURL: "https://result-summary-psi-orpin.vercel.app/",
      GithubRepo:"https://github.com/Keni-noir/ResultSummary",
+     },
+
+     {
+        id: 4,
+     title: "API Countries ",
+     description: "A Responsive web app using React and Tailwind, learning how to fetch Restful API and make use if it in the project ",
+     image: ApiCountries ,
+     tags: ["React", "TailwindCSS"],
+     demoURL: "https://result-summary-psi-orpin.vercel.app/",
+     GithubRepo:"https://github.com/Keni-noir/ApiCountries",
      }
 ]
 

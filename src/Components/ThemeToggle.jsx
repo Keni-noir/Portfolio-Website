@@ -33,7 +33,7 @@ export const ThemeToggle = () =>{
         )} >
             {""}
             {isDarkMode ? 
-            (<Sun className="text-yellow-300 h-6 w-6" />) 
+            (<Sun className="text-yellow-300 h-6 w-6" /> ) 
             :
              (<Moon className="text-blue-900 h-6 w-6"/>)}
              </button>

@@ -48,7 +48,7 @@ export const AboutSection = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-left">Web Development</h4>
                   <p className="text-muted-foreground text-left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cuurently a Frontend Developer, aiming to be a Full-Stack Developer and WEB3 Enthusiast. Currently learning nextjs and nodejs.I ahve one year experinece building responsive and dynamic websites.
                   </p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ export const AboutSection = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-left">Video Editing</h4>
                   <p className="text-muted-foreground text-left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    I also do video editing, Where i edit videos for social media contents. i use CapCut and for my editing.
                   </p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export const AboutSection = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-left">UI/UX</h4>
                   <p className="text-muted-foreground text-left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    I have a basic knowledge of UI/UX design, i can design simple and basic website using figma. i am currently learning more about UI/UX design.
                   </p>
                 </div>
               </div>
