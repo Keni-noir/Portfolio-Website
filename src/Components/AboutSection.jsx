@@ -1,5 +1,5 @@
 import { Code, User, Video } from "lucide-react"
-import CV from "../assets/GoodnessCV.pdf"
+import CV from "../assets/AjayiGoodnessCV.pdf"
 
 export const AboutSection = () => {
   return (
@@ -15,12 +15,6 @@ export const AboutSection = () => {
             <h3 className="text-2xl md:text-3xl font-semibold">
               I'm a Passionate Frontend Web Developer
             </h3>
-            <p className="text-muted-foreground">
-              I am a passionate web developer with a focus on creating dynamic
-              and responsive web applications. My journey in web development
-              began with a fascination for how websites work and the
-              technologies behind them.
-            </p>
             <p className="text-muted-foreground">
               I am a passionate web developer with a focus on creating dynamic
               and responsive web applications. My journey in web development
