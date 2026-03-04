@@ -12,7 +12,7 @@ const Projects = [
      description: "An E-comerce website using Next.js and tailwind for a client, hosted on vercel. Website contains product of client and help buys place order that are sent to companies whatsapp due to client's request.  ",
      image: MuizAmir ,
      tags: ["React", "TailwindCSS"],
-     demoURL: "www.muizamir.com",
+     demoURL: "https://muiz-amir.vercel.app/",
      GithubRepo:"https://github.com/Keni-noir/MuizAmir",
      },
      {
