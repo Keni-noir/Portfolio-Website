@@ -5,7 +5,7 @@ import Gracefootwears from "/Project/Gracefootwears.png"
 import ApiCountries from "/Project/Api-Countries.png"
 import MuizAmir from "/Project/MuizAmir.png"
 import Bookstore from "/Project/bookstore.png"
-import DemoBanking from "/Project/DemoBanking.png"
+import DemoBanking from "/Project/DemoBank.png"
 
 const Projects = [
    {
