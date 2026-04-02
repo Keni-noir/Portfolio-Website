@@ -1,5 +1,5 @@
 import { Code, User, Video } from "lucide-react"
-import CV from "../assets/AjayiGoodnessCV.pdf"
+import CV from "../assetS/GOODNESS_CV.pdf"
 
 export const AboutSection = () => {
   return (
@@ -13,13 +13,14 @@ export const AboutSection = () => {
           {/* Left column */}
           <div className="space-y-6 text-center">
             <h3 className="text-2xl md:text-3xl font-semibold">
-              I'm a Passionate Frontend Web Developer
+              I'm a junior Full-stack Developer
             </h3>
             <p className="text-muted-foreground">
-              I am a passionate web developer with a focus on creating dynamic
-              and responsive web applications. My journey in web development
-              began with a fascination for how websites work and the
-              technologies behind them.
+              As a Junoir Full-Stack Developer i have hands-on experience building web and mobile applications using Node.js, 
+Next.js, React, Flutter, and PostgreSQL. Skilled in designing RESTful APIs, implementing secure 
+authentication systems, integrating payment gateways, and optimizing user experience. Additional 
+background in cybersecurity operations, including SIEM monitoring and security audits. Eager to 
+solve complex technical problems and contribute to high-impact engineering teams. 
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center ">
@@ -42,7 +43,7 @@ export const AboutSection = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-left">Web Development</h4>
                   <p className="text-muted-foreground text-left">
-                    Cuurently a Frontend Developer, aiming to be a Full-Stack Developer and WEB3 Enthusiast. Currently learning nextjs and nodejs.I have gained hands-on-experinece building responsive and dynamic websites.
+                    I am a junior Full-Stack Developer. I have hands on experience in buikding basic bank transactions, consuming API from Library to build a bookstore, among many more shown in the project section.
                   </p>
                 </div>
               </div>
@@ -70,7 +71,7 @@ export const AboutSection = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-left">UI/UX</h4>
                   <p className="text-muted-foreground text-left">
-                    I have a basic knowledge of UI/UX design, i can design simple and basic website using figma. i am currently learning more about UI/UX design.
+                    I have a basic knowledge of UI/UX design, i can design simple and basic website using figma.
                   </p>
                 </div>
               </div>

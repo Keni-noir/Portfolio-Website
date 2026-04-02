@@ -2,18 +2,24 @@ import { useState } from "react"
 import { cn } from "../lib/utils"
 
 const skills = [
-  { name: "HTML/CSS", level: 95, category: "Frontend" },
-  { name: "Javascript", level: 70, category: "Frontend" },
-  { name: "TailwindCss", level: 50, category: "Frontend" },
-  { name: "React", level: 60, category: "Frontend" },
-
-  { name: "Git/Github", level: 90, category: "tools" },
-  { name: "Figma", level: 30, category: "tools" },
-  { name: "VS Code", level: 60, category: "tools" },
-  { name: "CapCut", level: 90, category: "tools" },
+  { name: "HTML/CSS", category: "Frontend" },
+  { name: "Javascript", category: "Frontend" },
+  { name: "TailwindCss", category: "Frontend" },
+  { name: "React", category: "Frontend" },
+  { name: "Nextjs", category: "Frontend" },
+  { name: "Nodejs", category: "Backend" },
+  { name: "Expressjs", category: "Backend" },
+  { name: "PostgreSQL",  category: "Backend" },
+  { name: "Prisma ORM",  category: "Backend" },
+  { name: "Git/Github", category: "tools" },
+  { name: "Figma", category: "tools" },
+  { name: "VS Code", category: "tools" },
+  { name: "CapCut", category: "tools" },
+  { name: "Securonix", category: "Cybersecurity" },
+  { name: "Nmap", category: "Cybersecurity" },
 ]
 
-const Category = ["all", "Frontend", "tools"]
+const Category = ["Frontend", "Backend", "tools", "Cybersecurity"]
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all")
@@ -61,17 +67,6 @@ export const SkillsSection = () => {
                 <h3 className="font-semibold text-base sm:text-lg">
                   {skill.name}
                 </h3>
-              </div>
-              <div className="w-full bg-secondary/50 rounded-full h-2 overflow-hidden">
-                <div
-                  className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
-                  style={{ width: skill.level + "%" }}
-                />
-              </div>
-              <div className="text-right mt-1">
-                <span className="text-xs sm:text-sm text-muted-foreground">
-                  {skill.level}%
-                </span>
               </div>
             </div>
           ))}
