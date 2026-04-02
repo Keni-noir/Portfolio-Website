@@ -1,5 +1,5 @@
 import { Code, User, Video } from "lucide-react"
-import CV from "../assetS/GOODNESS_CV.pdf"
+import CV from "../assets/GOODNESS_CV.pdf"
 
 export const AboutSection = () => {
   return (
